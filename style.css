@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 @font-face {
     font-family: "Jellee-Roman";
     src: url("fonts/Jellee-Roman.eot");
-    src: local("☺"), url("fonts/Jellee-Roman.woff") format("woff"), url("../fonts/Jellee-Roman.ttf") format("truetype"), url("../fonts/Jellee-Roman.svg") format("svg");
+    src: local("☺"), url("fonts/Jellee-Roman.woff") format("woff"), url("/fonts/Jellee-Roman.ttf") format("truetype"), url("fonts/Jellee-Roman.svg") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -911,7 +911,7 @@ body {
 .topics__timeago {
     padding-top: 20px;
     padding: 10px 0px 10px 50px;
-    color: #696969;s
+    color: #696969;
     font-size: 12px;
     text-transform: uppercase;
 }
